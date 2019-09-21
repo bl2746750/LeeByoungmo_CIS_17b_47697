@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_hands_8h" kind="file" language="C++">
+    <compoundname>Hands.h</compoundname>
+    <includes refid="_card_8h" local="yes">Card.h</includes>
+    <includedby refid="_player_8h" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.h</includedby>
+    <includedby refid="_hands_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.cpp</includedby>
+    <includedby refid="_player_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.cpp</includedby>
+    <incdepgraph>
+      <node id="50">
+        <label>Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.h</label>
+        <link refid="_hands_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="53">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.cpp</label>
+        <link refid="_dealer_8cpp"/>
+      </node>
+      <node id="57">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.cpp</label>
+        <link refid="_player_8cpp"/>
+      </node>
+      <node id="58">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.cpp</label>
+        <link refid="_hands_8cpp"/>
+      </node>
+      <node id="56">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="52">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.h</label>
+        <link refid="_hands_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h</label>
+        <link refid="_dealer_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_hands" prot="public">Hands</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>File:<sp/><sp/><sp/>Hands.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Byoung<sp/>Mo<sp/>Lee</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Created<sp/>on<sp/>May<sp/>18,<sp/>2019<sp/>20:43<sp/>PM</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/>Hands<sp/>Class<sp/>for<sp/>Texas<sp/>Holdem</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HANDS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HANDS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_card_8h" kindref="compound">Card.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_hands" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_hands" kindref="compound">Hands</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_card" kindref="compound">Card</ref>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_hands_1ad9994df26939755621140b7909f73e55" kindref="member">Hands</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_hands_1ad9994df26939755621140b7909f73e55" kindref="member">Hands</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_hands" kindref="compound">Hands</ref>&amp;<sp/>orig);</highlight></codeline>
+<codeline lineno="21" refid="class_hands_1aa64813af31666ccff14982c00fa6e07b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_hands_1aa64813af31666ccff14982c00fa6e07b" kindref="member">~Hands</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_hands_1a507f31a008ed57353f96cfcc04d4afe2" kindref="member">getInformation</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_hands_1ad35de9af1af7684d8391f099ee0a50e4" kindref="member">checkStraight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_hands_1a8c74936687fdf180386fa9bdfb41894c" kindref="member">isFlush</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_hands_1a8eb83d6a09327d6d2f35a2ab364c59a7" kindref="member">checkFaceHands</ref>(<ref refid="class_card" kindref="compound">Card</ref>*,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_hands_1aab1e7de13dd6df2c3a44c34e0f07bcb7" kindref="member">setHands</ref>(<ref refid="class_card" kindref="compound">Card</ref>*,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_hands_1abff4e30cc51b8c7f3749a73bbc2b67f5" kindref="member">displayFiveCards</ref>(<ref refid="class_card" kindref="compound">Card</ref>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28" refid="class_hands_1ad81de28ce78750ac960e37e74cd18c32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card" kindref="compound">Card</ref>*<sp/><ref refid="class_hands_1ad81de28ce78750ac960e37e74cd18c32" kindref="member">getFiveCards</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n)<sp/>{<ref refid="class_hands_1aab1e7de13dd6df2c3a44c34e0f07bcb7" kindref="member">setHands</ref>(c,<sp/>n);</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fiveCards;}</highlight></codeline>
+<codeline lineno="29" refid="class_hands_1a9c9e1b246fee8438746bb62edbe3cfb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_hands_1a9c9e1b246fee8438746bb62edbe3cfb1" kindref="member">getHands</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n)<sp/>{<ref refid="class_hands_1aab1e7de13dd6df2c3a44c34e0f07bcb7" kindref="member">setHands</ref>(c,n);</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hands;}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>displayInformation();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card" kindref="compound">Card</ref>*<sp/>fiveCards;<sp/><sp/></highlight><highlight class="comment">//select<sp/>5<sp/>of<sp/>7<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hands;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="class_hands_1a1840d07d5b852c66cb326ab5cd2c664a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/><ref refid="class_hands_1a1840d07d5b852c66cb326ab5cd2c664a" kindref="member">faceSum</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_hands_1af2419ed677b6c100dc456d1116de4b6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_hands_1af2419ed677b6c100dc456d1116de4b6e" kindref="member">faceRow</ref>;</highlight></codeline>
+<codeline lineno="37" refid="class_hands_1a268d281662949a020db97b74b3e501fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">**<sp/><ref refid="class_hands_1a268d281662949a020db97b74b3e501fd" kindref="member">suitSum</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_hands_1a9f51905cd4fb14f1aaef36089eff91c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_hands_1a9f51905cd4fb14f1aaef36089eff91c4" kindref="member">suitRow</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>HANDS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=0:<sp/>Highcard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=1:<sp/>One<sp/>Pair</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=2:<sp/>Two<sp/>Pair</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=3:<sp/>Three<sp/>of<sp/>a<sp/>card</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=4:<sp/>Straight</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=5:<sp/>Flush</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=6:<sp/>Full<sp/>house</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=7:<sp/>Four<sp/>of<sp/>a<sp/>card</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hands=8:<sp/>Straight<sp/>Flush</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.h"/>
+  </compounddef>
+</doxygen>

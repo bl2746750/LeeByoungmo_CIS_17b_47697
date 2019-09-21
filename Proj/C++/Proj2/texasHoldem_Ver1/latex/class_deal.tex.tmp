@@ -1,0 +1,63 @@
+\hypertarget{class_deal}{}\doxysection{Deal Class Reference}
+\label{class_deal}\index{Deal@{Deal}}
+
+
+Collaboration diagram for Deal\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_deal_a533c72495b1507c02b04b561e335f5f7}\label{class_deal_a533c72495b1507c02b04b561e335f5f7}} 
+void {\bfseries game\+Players} (int n)
+\item 
+\mbox{\Hypertarget{class_deal_adcb56117dde3ecf77a511d4bbaf87002}\label{class_deal_adcb56117dde3ecf77a511d4bbaf87002}} 
+void {\bfseries shuffle} ()
+\item 
+\mbox{\Hypertarget{class_deal_a56af05ec8f9052022bb9fb08ec6141bb}\label{class_deal_a56af05ec8f9052022bb9fb08ec6141bb}} 
+void {\bfseries initiate\+Round} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_a6730a59b22fa5c934f4e846f58f21926}\label{class_deal_a6730a59b22fa5c934f4e846f58f21926}} 
+void {\bfseries decide\+Winner} ()
+\item 
+\mbox{\Hypertarget{class_deal_adb1044e2dff80c25b03f9dc866cd82cc}\label{class_deal_adb1044e2dff80c25b03f9dc866cd82cc}} 
+void {\bfseries complete\+Round} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_afe0dde43259b04b3e89505b3f4c16c2c}\label{class_deal_afe0dde43259b04b3e89505b3f4c16c2c}} 
+void {\bfseries deal\+Preflop} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_a7606e6cb958bb8e9dcdeb4342d968283}\label{class_deal_a7606e6cb958bb8e9dcdeb4342d968283}} 
+void {\bfseries deal\+Flop} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_a4e908e10204c6c6088b6be16f851eab1}\label{class_deal_a4e908e10204c6c6088b6be16f851eab1}} 
+void {\bfseries deal\+Turn} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_a858bb2b0eb43ec63111d2f78422b031e}\label{class_deal_a858bb2b0eb43ec63111d2f78422b031e}} 
+void {\bfseries deal\+River} (\mbox{\hyperlink{class_player}{Player}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_deal_a0e5d20347141f88114cce06c28c7566a}\label{class_deal_a0e5d20347141f88114cce06c28c7566a}} 
+\mbox{\hyperlink{class_player}{Player}} $\ast$ {\bfseries get\+Players} () const
+\item 
+\mbox{\Hypertarget{class_deal_ad3aa71f20ce60ace291f2931ce50c7fe}\label{class_deal_ad3aa71f20ce60ace291f2931ce50c7fe}} 
+int {\bfseries get\+Deal\+Stage} () const
+\item 
+\mbox{\Hypertarget{class_deal_ae41aace8f323701aff9a6f26f6d5c935}\label{class_deal_ae41aace8f323701aff9a6f26f6d5c935}} 
+int {\bfseries get\+Pot\+Amount} () const
+\item 
+\mbox{\Hypertarget{class_deal_a8d60027ea1e332e6e64cde4ccb36eb60}\label{class_deal_a8d60027ea1e332e6e64cde4ccb36eb60}} 
+int {\bfseries get\+Init\+Cont\+Amount} () const
+\item 
+\mbox{\Hypertarget{class_deal_ab4f54c335792d1ddd983ea9e526484b9}\label{class_deal_ab4f54c335792d1ddd983ea9e526484b9}} 
+int {\bfseries get\+Round} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_deal_ade1c56c2513f9903289b2ec9cc1ffc79}\label{class_deal_ade1c56c2513f9903289b2ec9cc1ffc79}} 
+\mbox{\hyperlink{class_player}{Player}} $\ast$ {\bfseries players}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Deal.\+h\item 
+Deal.\+cpp\end{DoxyCompactItemize}

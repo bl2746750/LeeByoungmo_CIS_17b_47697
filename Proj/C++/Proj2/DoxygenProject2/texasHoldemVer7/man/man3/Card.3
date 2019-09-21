@@ -1,0 +1,131 @@
+.TH "Card" 3 "Fri Jun 7 2019" "texasHoldem" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Card
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Card\&.h>\fP
+.PP
+Inherited by \fBHands\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCard\fP ()"
+.br
+.ti -1c
+.RI "\fBCard\fP (int f, int s)"
+.br
+.ti -1c
+.RI "void \fBsetCard\fP (int f, int s)"
+.br
+.ti -1c
+.RI "void \fBsetFace\fP (int f)"
+.br
+.ti -1c
+.RI "void \fBsetSuit\fP (int s)"
+.br
+.ti -1c
+.RI "void \fBsetACard\fP (\fBCard\fP &c)"
+.br
+.ti -1c
+.RI "int \fBgetFace\fP () const"
+.br
+.ti -1c
+.RI "int \fBgetSuit\fP () const"
+.br
+.ti -1c
+.RI "void \fBdisplayCard\fP ()"
+.br
+.ti -1c
+.RI "void \fBselectionSortByFace\fP (\fBCard\fP *c, int begin, int size)"
+.br
+.ti -1c
+.RI "void \fBselectionSortBySuit\fP (\fBCard\fP *c, int begin, int size)"
+.br
+.ti -1c
+.RI "const \fBCard\fP \fBoperator=\fP (const \fBCard\fP &right)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBface\fP"
+.br
+.ti -1c
+.RI "int \fBsuit\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 14 of file Card\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Card::Card ()\fC [inline]\fP"
+
+.PP
+Definition at line 19 of file Card\&.h\&.
+.SS "Card::Card (int f, int s)\fC [inline]\fP"
+
+.PP
+Definition at line 20 of file Card\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Card::displayCard ()"
+
+.PP
+Definition at line 13 of file Card\&.cpp\&.
+.SS "int Card::getFace () const\fC [inline]\fP"
+
+.PP
+Definition at line 26 of file Card\&.h\&.
+.SS "int Card::getSuit () const\fC [inline]\fP"
+
+.PP
+Definition at line 27 of file Card\&.h\&.
+.SS "const \fBCard\fP Card::operator= (const \fBCard\fP & right)\fC [inline]\fP"
+
+.PP
+Definition at line 31 of file Card\&.h\&.
+.SS "void Card::selectionSortByFace (\fBCard\fP * c, int begin, int size)"
+
+.PP
+Definition at line 34 of file Card\&.cpp\&.
+.SS "void Card::selectionSortBySuit (\fBCard\fP * c, int begin, int size)"
+
+.PP
+Definition at line 51 of file Card\&.cpp\&.
+.SS "void Card::setACard (\fBCard\fP & c)\fC [inline]\fP"
+
+.PP
+Definition at line 25 of file Card\&.h\&.
+.SS "void Card::setCard (int f, int s)\fC [inline]\fP"
+
+.PP
+Definition at line 22 of file Card\&.h\&.
+.SS "void Card::setFace (int f)\fC [inline]\fP"
+
+.PP
+Definition at line 23 of file Card\&.h\&.
+.SS "void Card::setSuit (int s)\fC [inline]\fP"
+
+.PP
+Definition at line 24 of file Card\&.h\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int Card::face\fC [protected]\fP"
+
+.PP
+Definition at line 16 of file Card\&.h\&.
+.SS "int Card::suit\fC [protected]\fP"
+
+.PP
+Definition at line 17 of file Card\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for texasHoldem from the source code\&.

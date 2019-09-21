@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_card" kind="class" language="C++" prot="public">
+    <compoundname>Card</compoundname>
+    <derivedcompoundref refid="class_hands" prot="public" virt="non-virtual">Hands</derivedcompoundref>
+    <includes refid="_card_8h" local="no">Card.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_card_1a5e31d609eb15ef325de8a294fdf94801" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Card::face</definition>
+        <argsstring></argsstring>
+        <name>face</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="16" column="9" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Card::suit</definition>
+        <argsstring></argsstring>
+        <name>suit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="17" column="9" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_card_1a783f5854cbe8c183ee3d4414c01472c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Card::Card</definition>
+        <argsstring>()</argsstring>
+        <name>Card</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="19" column="5" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a67bf98fcaba4cd1347fcde8e5bf454e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Card::Card</definition>
+        <argsstring>(int f, int s)</argsstring>
+        <name>Card</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="20" column="5" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a65f892e8e88cbe651ff8035f140275c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::setCard</definition>
+        <argsstring>(int f, int s)</argsstring>
+        <name>setCard</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="22" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a459248e9eb80f6a54a4115e7783fde7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::setFace</definition>
+        <argsstring>(int f)</argsstring>
+        <name>setFace</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="23" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a046f8780960f82e6b8c9e6a01768a711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::setSuit</definition>
+        <argsstring>(int s)</argsstring>
+        <name>setSuit</name>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="24" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1ac6d9ce946de59dc3b68eb428156ec953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::setACard</definition>
+        <argsstring>(Card &amp;c)</argsstring>
+        <name>setACard</name>
+        <param>
+          <type><ref refid="class_card" kindref="compound">Card</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="25" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a82270695ff584c3dd77fe4bf34566313" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Card::getFace</definition>
+        <argsstring>() const</argsstring>
+        <name>getFace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="26" column="9" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a0628a5c886b29321dc009115913583b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Card::getSuit</definition>
+        <argsstring>() const</argsstring>
+        <name>getSuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="27" column="9" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1aadcde165495efbb8877f1c3c080f8cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::displayCard</definition>
+        <argsstring>()</argsstring>
+        <name>displayCard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="28" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp" bodystart="13" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a3b17be682cec5df254265069271479ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::selectionSortByFace</definition>
+        <argsstring>(Card *c, int begin, int size)</argsstring>
+        <name>selectionSortByFace</name>
+        <param>
+          <type><ref refid="class_card" kindref="compound">Card</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="29" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp" bodystart="34" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a55223f6ab993c656e76108a54ad0ef03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Card::selectionSortBySuit</definition>
+        <argsstring>(Card *c, int begin, int size)</argsstring>
+        <name>selectionSortBySuit</name>
+        <param>
+          <type><ref refid="class_card" kindref="compound">Card</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="30" column="10" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp" bodystart="51" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_card_1a50d7785a9e17e8d92f26e8e373e811d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_card" kindref="compound">Card</ref></type>
+        <definition>const Card Card::operator=</definition>
+        <argsstring>(const Card &amp;right)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_card" kindref="compound">Card</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="31" column="16" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="31" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Card</label>
+        <link refid="class_card"/>
+      </node>
+      <node id="2">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Hands</label>
+        <link refid="class_hands"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" line="14" column="11" bodyfile="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h" bodystart="14" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_card_1a783f5854cbe8c183ee3d4414c01472c0" prot="public" virt="non-virtual"><scope>Card</scope><name>Card</name></member>
+      <member refid="class_card_1a67bf98fcaba4cd1347fcde8e5bf454e1" prot="public" virt="non-virtual"><scope>Card</scope><name>Card</name></member>
+      <member refid="class_card_1aadcde165495efbb8877f1c3c080f8cf5" prot="public" virt="non-virtual"><scope>Card</scope><name>displayCard</name></member>
+      <member refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" prot="protected" virt="non-virtual"><scope>Card</scope><name>face</name></member>
+      <member refid="class_card_1a82270695ff584c3dd77fe4bf34566313" prot="public" virt="non-virtual"><scope>Card</scope><name>getFace</name></member>
+      <member refid="class_card_1a0628a5c886b29321dc009115913583b9" prot="public" virt="non-virtual"><scope>Card</scope><name>getSuit</name></member>
+      <member refid="class_card_1a50d7785a9e17e8d92f26e8e373e811d4" prot="public" virt="non-virtual"><scope>Card</scope><name>operator=</name></member>
+      <member refid="class_card_1a3b17be682cec5df254265069271479ef" prot="public" virt="non-virtual"><scope>Card</scope><name>selectionSortByFace</name></member>
+      <member refid="class_card_1a55223f6ab993c656e76108a54ad0ef03" prot="public" virt="non-virtual"><scope>Card</scope><name>selectionSortBySuit</name></member>
+      <member refid="class_card_1ac6d9ce946de59dc3b68eb428156ec953" prot="public" virt="non-virtual"><scope>Card</scope><name>setACard</name></member>
+      <member refid="class_card_1a65f892e8e88cbe651ff8035f140275c4" prot="public" virt="non-virtual"><scope>Card</scope><name>setCard</name></member>
+      <member refid="class_card_1a459248e9eb80f6a54a4115e7783fde7b" prot="public" virt="non-virtual"><scope>Card</scope><name>setFace</name></member>
+      <member refid="class_card_1a046f8780960f82e6b8c9e6a01768a711" prot="public" virt="non-virtual"><scope>Card</scope><name>setSuit</name></member>
+      <member refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" prot="protected" virt="non-virtual"><scope>Card</scope><name>suit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,309 @@
+\doxysection{Dealer Class Reference}
+\label{class_dealer}\index{Dealer@{Dealer}}
+
+
+{\ttfamily \#include $<$Dealer.\+h$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Negative\+Number}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Dealer} ()
+\item 
+\textbf{ $\sim$\+Dealer} ()
+\item 
+\textbf{ Dealer} (int n)
+\item 
+void \textbf{ shuffle} ()
+\item 
+void \textbf{ set\+Players} (int n)
+\item 
+void \textbf{ set\+Cards} (\textbf{ Card} $\ast$c)
+\item 
+void \textbf{ set\+My\+Cards} (\textbf{ Card} $\ast$mc)
+\item 
+void \textbf{ set\+Round} (int r)
+\item 
+void \textbf{ initiate\+Round} ()
+\item 
+int \textbf{ decide\+Winner} ()
+\item 
+void \textbf{ complete\+Round} ()
+\item 
+void \textbf{ deal\+Preflop} ()
+\item 
+void \textbf{ deal\+Flop} ()
+\item 
+void \textbf{ deal\+Turn} ()
+\item 
+void \textbf{ deal\+River} ()
+\item 
+int \textbf{ get\+Pot\+Amount} () const
+\item 
+int \textbf{ get\+Init\+Cont\+Amount} () const
+\item 
+int \textbf{ get\+Round} () const
+\item 
+\textbf{ Player} $\ast$ \textbf{ get\+Players} () const
+\item 
+\textbf{ Card} $\ast$ \textbf{ get\+Cards} () const
+\item 
+int \textbf{ get\+Num\+Players} () const
+\item 
+void \textbf{ display\+Cards} (\textbf{ Card} $\ast$cards)
+\item 
+void \textbf{ display} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 18 of file Dealer.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_dealer_a518fd02cf57eaf55e06b7754c4649a3f}} 
+\index{Dealer@{Dealer}!Dealer@{Dealer}}
+\index{Dealer@{Dealer}!Dealer@{Dealer}}
+\doxysubsubsection{Dealer()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Dealer\+::\+Dealer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a8320886a9414610ab1de1bd03de0e216}} 
+\index{Dealer@{Dealer}!````~Dealer@{$\sim$Dealer}}
+\index{````~Dealer@{$\sim$Dealer}!Dealer@{Dealer}}
+\doxysubsubsection{$\sim$Dealer()}
+{\footnotesize\ttfamily Dealer\+::$\sim$\+Dealer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 33 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a69499ac969e9ca97b0c2ecf0a83b4647}} 
+\index{Dealer@{Dealer}!Dealer@{Dealer}}
+\index{Dealer@{Dealer}!Dealer@{Dealer}}
+\doxysubsubsection{Dealer()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Dealer\+::\+Dealer (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definition at line 26 of file Dealer.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_dealer_ad9bf563d6840bcb0d374aa7523876987}} 
+\index{Dealer@{Dealer}!completeRound@{completeRound}}
+\index{completeRound@{completeRound}!Dealer@{Dealer}}
+\doxysubsubsection{completeRound()}
+{\footnotesize\ttfamily void Dealer\+::complete\+Round (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 250 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a426ab26a06d37e8f3878e73924957d50}} 
+\index{Dealer@{Dealer}!dealFlop@{dealFlop}}
+\index{dealFlop@{dealFlop}!Dealer@{Dealer}}
+\doxysubsubsection{dealFlop()}
+{\footnotesize\ttfamily void Dealer\+::deal\+Flop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 147 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a37e0bef01c7d9a6484d7133c21cb72e2}} 
+\index{Dealer@{Dealer}!dealPreflop@{dealPreflop}}
+\index{dealPreflop@{dealPreflop}!Dealer@{Dealer}}
+\doxysubsubsection{dealPreflop()}
+{\footnotesize\ttfamily void Dealer\+::deal\+Preflop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 105 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a221c3c83cacca7d4d08f7c44a78737b8}} 
+\index{Dealer@{Dealer}!dealRiver@{dealRiver}}
+\index{dealRiver@{dealRiver}!Dealer@{Dealer}}
+\doxysubsubsection{dealRiver()}
+{\footnotesize\ttfamily void Dealer\+::deal\+River (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 189 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a1e67db32b4067b80f06e94c2c27b615a}} 
+\index{Dealer@{Dealer}!dealTurn@{dealTurn}}
+\index{dealTurn@{dealTurn}!Dealer@{Dealer}}
+\doxysubsubsection{dealTurn()}
+{\footnotesize\ttfamily void Dealer\+::deal\+Turn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 180 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_ae150717dbc9cb5ec905e305fb03f4c2e}} 
+\index{Dealer@{Dealer}!decideWinner@{decideWinner}}
+\index{decideWinner@{decideWinner}!Dealer@{Dealer}}
+\doxysubsubsection{decideWinner()}
+{\footnotesize\ttfamily int Dealer\+::decide\+Winner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 201 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a791cc9f5d29eafc4ffde67b8fa0522b3}} 
+\index{Dealer@{Dealer}!display@{display}}
+\index{display@{display}!Dealer@{Dealer}}
+\doxysubsubsection{display()}
+{\footnotesize\ttfamily void Dealer\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 275 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a52ceca90b0911312cb7fff45ea822d42}} 
+\index{Dealer@{Dealer}!displayCards@{displayCards}}
+\index{displayCards@{displayCards}!Dealer@{Dealer}}
+\doxysubsubsection{displayCards()}
+{\footnotesize\ttfamily void Dealer\+::display\+Cards (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{cards }\end{DoxyParamCaption})}
+
+
+
+Definition at line 258 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a0a6810ef440a4c09f34d86e8a96602ba}} 
+\index{Dealer@{Dealer}!getCards@{getCards}}
+\index{getCards@{getCards}!Dealer@{Dealer}}
+\doxysubsubsection{getCards()}
+{\footnotesize\ttfamily \textbf{ Card}$\ast$ Dealer\+::get\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 51 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_ad89a7195746cd9225ab2823a4677e38a}} 
+\index{Dealer@{Dealer}!getInitContAmount@{getInitContAmount}}
+\index{getInitContAmount@{getInitContAmount}!Dealer@{Dealer}}
+\doxysubsubsection{getInitContAmount()}
+{\footnotesize\ttfamily int Dealer\+::get\+Init\+Cont\+Amount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 48 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a384d6b68a1fe037a301cc595ec066358}} 
+\index{Dealer@{Dealer}!getNumPlayers@{getNumPlayers}}
+\index{getNumPlayers@{getNumPlayers}!Dealer@{Dealer}}
+\doxysubsubsection{getNumPlayers()}
+{\footnotesize\ttfamily int Dealer\+::get\+Num\+Players (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 52 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a579572494ef5b032e71d24f759320963}} 
+\index{Dealer@{Dealer}!getPlayers@{getPlayers}}
+\index{getPlayers@{getPlayers}!Dealer@{Dealer}}
+\doxysubsubsection{getPlayers()}
+{\footnotesize\ttfamily \textbf{ Player}$\ast$ Dealer\+::get\+Players (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 50 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a47011075cbb7dd29b3c5e6ee9ea9ac21}} 
+\index{Dealer@{Dealer}!getPotAmount@{getPotAmount}}
+\index{getPotAmount@{getPotAmount}!Dealer@{Dealer}}
+\doxysubsubsection{getPotAmount()}
+{\footnotesize\ttfamily int Dealer\+::get\+Pot\+Amount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 47 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a28db7d73628ba96519c9d662aa33322e}} 
+\index{Dealer@{Dealer}!getRound@{getRound}}
+\index{getRound@{getRound}!Dealer@{Dealer}}
+\doxysubsubsection{getRound()}
+{\footnotesize\ttfamily int Dealer\+::get\+Round (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 49 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a6a719be0fa7878cbc6bbd7fdac07d828}} 
+\index{Dealer@{Dealer}!initiateRound@{initiateRound}}
+\index{initiateRound@{initiateRound}!Dealer@{Dealer}}
+\doxysubsubsection{initiateRound()}
+{\footnotesize\ttfamily void Dealer\+::initiate\+Round (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a559d27fa1523a424ad53033474d6ca64}} 
+\index{Dealer@{Dealer}!setCards@{setCards}}
+\index{setCards@{setCards}!Dealer@{Dealer}}
+\doxysubsubsection{setCards()}
+{\footnotesize\ttfamily void Dealer\+::set\+Cards (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 37 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a0e315b97cd986124017df710b621ec35}} 
+\index{Dealer@{Dealer}!setMyCards@{setMyCards}}
+\index{setMyCards@{setMyCards}!Dealer@{Dealer}}
+\doxysubsubsection{setMyCards()}
+{\footnotesize\ttfamily void Dealer\+::set\+My\+Cards (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{mc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 38 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_a637c027e3c6d58d82df509f208ef96b0}} 
+\index{Dealer@{Dealer}!setPlayers@{setPlayers}}
+\index{setPlayers@{setPlayers}!Dealer@{Dealer}}
+\doxysubsubsection{setPlayers()}
+{\footnotesize\ttfamily void Dealer\+::set\+Players (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definition at line 78 of file Dealer.\+cpp.
+
+\mbox{\label{class_dealer_a82021bf55dd52f2a147c21cb4c371543}} 
+\index{Dealer@{Dealer}!setRound@{setRound}}
+\index{setRound@{setRound}!Dealer@{Dealer}}
+\doxysubsubsection{setRound()}
+{\footnotesize\ttfamily void Dealer\+::set\+Round (\begin{DoxyParamCaption}\item[{int}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 39 of file Dealer.\+h.
+
+\mbox{\label{class_dealer_af7745ad18bca2338902d799a48dbceaa}} 
+\index{Dealer@{Dealer}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!Dealer@{Dealer}}
+\doxysubsubsection{shuffle()}
+{\footnotesize\ttfamily void Dealer\+::shuffle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 56 of file Dealer.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Dealer.\+h}\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Dealer.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,211 @@
+\doxysection{Card Class Reference}
+\label{class_card}\index{Card@{Card}}
+
+
+{\ttfamily \#include $<$Card.\+h$>$}
+
+
+
+Inheritance diagram for Card\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{class_card__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Card} ()
+\item 
+\textbf{ Card} (int f, int s)
+\item 
+void \textbf{ set\+Card} (int f, int s)
+\item 
+void \textbf{ set\+Face} (int f)
+\item 
+void \textbf{ set\+Suit} (int s)
+\item 
+void \textbf{ set\+A\+Card} (\textbf{ Card} \&c)
+\item 
+int \textbf{ get\+Face} () const
+\item 
+int \textbf{ get\+Suit} () const
+\item 
+void \textbf{ display\+Card} ()
+\item 
+void \textbf{ selection\+Sort\+By\+Face} (\textbf{ Card} $\ast$c, int begin, int size)
+\item 
+void \textbf{ selection\+Sort\+By\+Suit} (\textbf{ Card} $\ast$c, int begin, int size)
+\item 
+const \textbf{ Card} \textbf{ operator=} (const \textbf{ Card} \&right)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ face}
+\item 
+int \textbf{ suit}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Card.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_card_a783f5854cbe8c183ee3d4414c01472c0}} 
+\index{Card@{Card}!Card@{Card}}
+\index{Card@{Card}!Card@{Card}}
+\doxysubsubsection{Card()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Card\+::\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 19 of file Card.\+h.
+
+\mbox{\label{class_card_a67bf98fcaba4cd1347fcde8e5bf454e1}} 
+\index{Card@{Card}!Card@{Card}}
+\index{Card@{Card}!Card@{Card}}
+\doxysubsubsection{Card()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Card\+::\+Card (\begin{DoxyParamCaption}\item[{int}]{f,  }\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 20 of file Card.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_card_aadcde165495efbb8877f1c3c080f8cf5}} 
+\index{Card@{Card}!displayCard@{displayCard}}
+\index{displayCard@{displayCard}!Card@{Card}}
+\doxysubsubsection{displayCard()}
+{\footnotesize\ttfamily void Card\+::display\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Card.\+cpp.
+
+\mbox{\label{class_card_a82270695ff584c3dd77fe4bf34566313}} 
+\index{Card@{Card}!getFace@{getFace}}
+\index{getFace@{getFace}!Card@{Card}}
+\doxysubsubsection{getFace()}
+{\footnotesize\ttfamily int Card\+::get\+Face (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 26 of file Card.\+h.
+
+\mbox{\label{class_card_a0628a5c886b29321dc009115913583b9}} 
+\index{Card@{Card}!getSuit@{getSuit}}
+\index{getSuit@{getSuit}!Card@{Card}}
+\doxysubsubsection{getSuit()}
+{\footnotesize\ttfamily int Card\+::get\+Suit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 27 of file Card.\+h.
+
+\mbox{\label{class_card_a50d7785a9e17e8d92f26e8e373e811d4}} 
+\index{Card@{Card}!operator=@{operator=}}
+\index{operator=@{operator=}!Card@{Card}}
+\doxysubsubsection{operator=()}
+{\footnotesize\ttfamily const \textbf{ Card} Card\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ Card} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 31 of file Card.\+h.
+
+\mbox{\label{class_card_a3b17be682cec5df254265069271479ef}} 
+\index{Card@{Card}!selectionSortByFace@{selectionSortByFace}}
+\index{selectionSortByFace@{selectionSortByFace}!Card@{Card}}
+\doxysubsubsection{selectionSortByFace()}
+{\footnotesize\ttfamily void Card\+::selection\+Sort\+By\+Face (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{c,  }\item[{int}]{begin,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file Card.\+cpp.
+
+\mbox{\label{class_card_a55223f6ab993c656e76108a54ad0ef03}} 
+\index{Card@{Card}!selectionSortBySuit@{selectionSortBySuit}}
+\index{selectionSortBySuit@{selectionSortBySuit}!Card@{Card}}
+\doxysubsubsection{selectionSortBySuit()}
+{\footnotesize\ttfamily void Card\+::selection\+Sort\+By\+Suit (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{c,  }\item[{int}]{begin,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Definition at line 51 of file Card.\+cpp.
+
+\mbox{\label{class_card_ac6d9ce946de59dc3b68eb428156ec953}} 
+\index{Card@{Card}!setACard@{setACard}}
+\index{setACard@{setACard}!Card@{Card}}
+\doxysubsubsection{setACard()}
+{\footnotesize\ttfamily void Card\+::set\+A\+Card (\begin{DoxyParamCaption}\item[{\textbf{ Card} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 25 of file Card.\+h.
+
+\mbox{\label{class_card_a65f892e8e88cbe651ff8035f140275c4}} 
+\index{Card@{Card}!setCard@{setCard}}
+\index{setCard@{setCard}!Card@{Card}}
+\doxysubsubsection{setCard()}
+{\footnotesize\ttfamily void Card\+::set\+Card (\begin{DoxyParamCaption}\item[{int}]{f,  }\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 22 of file Card.\+h.
+
+\mbox{\label{class_card_a459248e9eb80f6a54a4115e7783fde7b}} 
+\index{Card@{Card}!setFace@{setFace}}
+\index{setFace@{setFace}!Card@{Card}}
+\doxysubsubsection{setFace()}
+{\footnotesize\ttfamily void Card\+::set\+Face (\begin{DoxyParamCaption}\item[{int}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 23 of file Card.\+h.
+
+\mbox{\label{class_card_a046f8780960f82e6b8c9e6a01768a711}} 
+\index{Card@{Card}!setSuit@{setSuit}}
+\index{setSuit@{setSuit}!Card@{Card}}
+\doxysubsubsection{setSuit()}
+{\footnotesize\ttfamily void Card\+::set\+Suit (\begin{DoxyParamCaption}\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 24 of file Card.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{class_card_a5e31d609eb15ef325de8a294fdf94801}} 
+\index{Card@{Card}!face@{face}}
+\index{face@{face}!Card@{Card}}
+\doxysubsubsection{face}
+{\footnotesize\ttfamily int Card\+::face\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 16 of file Card.\+h.
+
+\mbox{\label{class_card_a68d1b935f3e4830af01fb9dba6c8220a}} 
+\index{Card@{Card}!suit@{suit}}
+\index{suit@{suit}!Card@{Card}}
+\doxysubsubsection{suit}
+{\footnotesize\ttfamily int Card\+::suit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 17 of file Card.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Card.\+h}\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Card.\+cpp}\end{DoxyCompactItemize}

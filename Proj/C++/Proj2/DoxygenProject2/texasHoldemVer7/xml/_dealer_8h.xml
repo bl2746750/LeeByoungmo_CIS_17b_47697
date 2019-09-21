@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_dealer_8h" kind="file" language="C++">
+    <compoundname>Dealer.h</compoundname>
+    <includes local="no">string</includes>
+    <includes refid="_card_8h" local="yes">Card.h</includes>
+    <includes refid="_player_8h" local="yes">Player.h</includes>
+    <includedby refid="_dealer_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/main.cpp</includedby>
+    <incdepgraph>
+      <node id="35">
+        <label>Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>string</label>
+      </node>
+      <node id="33">
+        <label>Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Hands.h</label>
+        <link refid="_hands_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>iostream</label>
+      </node>
+      <node id="31">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h</label>
+        <link refid="_dealer_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="39">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.cpp</label>
+        <link refid="_dealer_8cpp"/>
+      </node>
+      <node id="40">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="38">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h</label>
+        <link refid="_dealer_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_dealer" prot="public">Dealer</innerclass>
+    <innerclass refid="class_dealer_1_1_negative_number" prot="public">Dealer::NegativeNumber</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>File:<sp/><sp/><sp/>Dealer.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Byoung<sp/>Mo<sp/>Lee</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Created<sp/>on<sp/>May<sp/>17,<sp/>2019<sp/>09:08<sp/>AM</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/>Texas<sp/>Holdem</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DEALER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEALER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_card_8h" kindref="compound">Card.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_player_8h" kindref="compound">Player.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_dealer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dealer" kindref="compound">Dealer</ref>{<sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>potAmount;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>initialContributeAmount;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>round;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numPlayers;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref>*<sp/>players;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card" kindref="compound">Card</ref>*<sp/>cards;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card" kindref="compound">Card</ref>*<sp/>myCards;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DeckOfCards();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31" refid="class_dealer_1_1_negative_number" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dealer_1_1_negative_number" kindref="compound">NegativeNumber</ref><sp/>{};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_dealer" kindref="compound">Dealer</ref>();</highlight></codeline>
+<codeline lineno="33" refid="class_dealer_1a8320886a9414610ab1de1bd03de0e216" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_dealer_1a8320886a9414610ab1de1bd03de0e216" kindref="member">~Dealer</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_dealer" kindref="compound">Dealer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>shuffle();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setPlayers(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="37" refid="class_dealer_1a559d27fa1523a424ad53033474d6ca64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a559d27fa1523a424ad53033474d6ca64" kindref="member">setCards</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c)<sp/>{cards=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_card" kindref="compound">Card</ref><sp/>[52];<sp/>cards=c;}</highlight></codeline>
+<codeline lineno="38" refid="class_dealer_1a0e315b97cd986124017df710b621ec35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a0e315b97cd986124017df710b621ec35" kindref="member">setMyCards</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>mc)<sp/>{myCards=mc;}</highlight></codeline>
+<codeline lineno="39" refid="class_dealer_1a82021bf55dd52f2a147c21cb4c371543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a82021bf55dd52f2a147c21cb4c371543" kindref="member">setRound</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r)<sp/>{round=r;}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initiateRound();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>decideWinner();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>completeRound();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dealPreflop();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dealFlop();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dealTurn();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dealRiver();</highlight></codeline>
+<codeline lineno="47" refid="class_dealer_1a47011075cbb7dd29b3c5e6ee9ea9ac21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a47011075cbb7dd29b3c5e6ee9ea9ac21" kindref="member">getPotAmount</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>potAmount;}</highlight></codeline>
+<codeline lineno="48" refid="class_dealer_1ad89a7195746cd9225ab2823a4677e38a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1ad89a7195746cd9225ab2823a4677e38a" kindref="member">getInitContAmount</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>initialContributeAmount;}</highlight></codeline>
+<codeline lineno="49" refid="class_dealer_1a28db7d73628ba96519c9d662aa33322e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a28db7d73628ba96519c9d662aa33322e" kindref="member">getRound</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>round;}</highlight></codeline>
+<codeline lineno="50" refid="class_dealer_1a579572494ef5b032e71d24f759320963" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref>*<sp/><ref refid="class_dealer_1a579572494ef5b032e71d24f759320963" kindref="member">getPlayers</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>players;}</highlight></codeline>
+<codeline lineno="51" refid="class_dealer_1a0a6810ef440a4c09f34d86e8a96602ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card" kindref="compound">Card</ref>*<sp/><ref refid="class_dealer_1a0a6810ef440a4c09f34d86e8a96602ba" kindref="member">getCards</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cards;}</highlight></codeline>
+<codeline lineno="52" refid="class_dealer_1a384d6b68a1fe037a301cc595ec066358" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dealer_1a384d6b68a1fe037a301cc595ec066358" kindref="member">getNumPlayers</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>numPlayers;}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>displayCards(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>cards);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>display();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>Dealer::round=0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>DEALER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h"/>
+  </compounddef>
+</doxygen>

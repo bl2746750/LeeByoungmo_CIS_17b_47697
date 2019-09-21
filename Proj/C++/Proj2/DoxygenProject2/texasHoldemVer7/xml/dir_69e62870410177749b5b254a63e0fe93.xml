@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_69e62870410177749b5b254a63e0fe93" kind="dir">
+    <compoundname>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7</compoundname>
+    <innerfile refid="_8dep_8inc">.dep.inc</innerfile>
+    <innerfile refid="_card_8cpp">Card.cpp</innerfile>
+    <innerfile refid="_card_8h">Card.h</innerfile>
+    <innerfile refid="_dealer_8cpp">Dealer.cpp</innerfile>
+    <innerfile refid="_dealer_8h">Dealer.h</innerfile>
+    <innerfile refid="_hands_8cpp">Hands.cpp</innerfile>
+    <innerfile refid="_hands_8h">Hands.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="_player_8cpp">Player.cpp</innerfile>
+    <innerfile refid="_player_8h">Player.h</innerfile>
+    <innerfile refid="_templates_8h">Templates.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/"/>
+  </compounddef>
+</doxygen>

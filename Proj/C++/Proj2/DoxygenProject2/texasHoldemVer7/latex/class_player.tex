@@ -1,0 +1,424 @@
+\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+
+
+Inheritance diagram for Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{class_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Player} ()
+\item 
+\textbf{ $\sim$\+Player} ()
+\item 
+void \textbf{ set\+Player} (string n, int b, int o, int s)
+\item 
+void \textbf{ set\+My\+Card} (\textbf{ Card} $\ast$mC)
+\item 
+void \textbf{ set\+Name} (string n)
+\item 
+void \textbf{ set\+Balance} (int b)
+\item 
+void \textbf{ set\+Order} (int o)
+\item 
+void \textbf{ set\+Status} (int s)
+\item 
+string \textbf{ get\+Name} () const
+\item 
+int \textbf{ get\+Balance} () const
+\item 
+int \textbf{ get\+Num\+Cards} () const
+\item 
+void \textbf{ update\+My\+Hands} ()
+\item 
+int \textbf{ get\+My\+Hands} () const
+\item 
+\textbf{ Card} $\ast$ \textbf{ get\+My\+Five\+Cards} () const
+\item 
+int \textbf{ get\+My\+Points} () const
+\item 
+int \textbf{ get\+Order} () const
+\item 
+\textbf{ Card} $\ast$ \textbf{ get\+Mycards} () const
+\item 
+int \textbf{ get\+Status} () const
+\item 
+void \textbf{ put\+Money\+To\+Pot} (int m)
+\item 
+void \textbf{ take\+Money\+From\+Pot} (int m)
+\item 
+void \textbf{ reset\+My\+Cards} ()
+\item 
+void \textbf{ add\+Cards} (\textbf{ Card} $\ast$c, int n)
+\item 
+void \textbf{ display\+My\+Five\+Cards} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \textbf{ name}
+\item 
+int \textbf{ balance}
+\item 
+int \textbf{ order}
+\item 
+int \textbf{ status}
+\item 
+\textbf{ Card} $\ast$ \textbf{ my\+Cards}
+\item 
+\textbf{ Card} $\ast$ \textbf{ my\+Five\+Cards}
+\item 
+int \textbf{ hands}
+\item 
+int \textbf{ my\+Points}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 19 of file Player.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{Player()}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 31 of file Player.\+h.
+
+\mbox{\label{class_player_a749d2c00e1fe0f5c2746f7505a58c062}} 
+\index{Player@{Player}!````~Player@{$\sim$Player}}
+\index{````~Player@{$\sim$Player}!Player@{Player}}
+\doxysubsubsection{$\sim$Player()}
+{\footnotesize\ttfamily Player\+::$\sim$\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 32 of file Player.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_player_aa271a7a688b7d90e86e4008995720f7d}} 
+\index{Player@{Player}!addCards@{addCards}}
+\index{addCards@{addCards}!Player@{Player}}
+\doxysubsubsection{addCards()}
+{\footnotesize\ttfamily void Player\+::add\+Cards (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{c,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definition at line 48 of file Player.\+cpp.
+
+\mbox{\label{class_player_ac56c3737248c5d1b944d980031925f60}} 
+\index{Player@{Player}!displayMyFiveCards@{displayMyFiveCards}}
+\index{displayMyFiveCards@{displayMyFiveCards}!Player@{Player}}
+\doxysubsubsection{displayMyFiveCards()}
+{\footnotesize\ttfamily void Player\+::display\+My\+Five\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 68 of file Player.\+cpp.
+
+\mbox{\label{class_player_acc01dcfa07d6244c64fb5f4e2258edac}} 
+\index{Player@{Player}!getBalance@{getBalance}}
+\index{getBalance@{getBalance}!Player@{Player}}
+\doxysubsubsection{getBalance()}
+{\footnotesize\ttfamily int Player\+::get\+Balance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 40 of file Player.\+h.
+
+\mbox{\label{class_player_a3d25c357193ebdecc295dd782532e6c8}} 
+\index{Player@{Player}!getMycards@{getMycards}}
+\index{getMycards@{getMycards}!Player@{Player}}
+\doxysubsubsection{getMycards()}
+{\footnotesize\ttfamily \textbf{ Card}$\ast$ Player\+::get\+Mycards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 47 of file Player.\+h.
+
+\mbox{\label{class_player_a676bc26aa78f6cc245e75d3bb58e9765}} 
+\index{Player@{Player}!getMyFiveCards@{getMyFiveCards}}
+\index{getMyFiveCards@{getMyFiveCards}!Player@{Player}}
+\doxysubsubsection{getMyFiveCards()}
+{\footnotesize\ttfamily \textbf{ Card} $\ast$ Player\+::get\+My\+Five\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 41 of file Player.\+cpp.
+
+\mbox{\label{class_player_a533d9de5d42ee36c137c8ecf5fff523a}} 
+\index{Player@{Player}!getMyHands@{getMyHands}}
+\index{getMyHands@{getMyHands}!Player@{Player}}
+\doxysubsubsection{getMyHands()}
+{\footnotesize\ttfamily int Player\+::get\+My\+Hands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 37 of file Player.\+cpp.
+
+\mbox{\label{class_player_a6a8e9c98a61f6f5ee8c594c824b751ec}} 
+\index{Player@{Player}!getMyPoints@{getMyPoints}}
+\index{getMyPoints@{getMyPoints}!Player@{Player}}
+\doxysubsubsection{getMyPoints()}
+{\footnotesize\ttfamily int Player\+::get\+My\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 45 of file Player.\+cpp.
+
+\mbox{\label{class_player_a4939193fc637f75bf7a11118334dae7e}} 
+\index{Player@{Player}!getName@{getName}}
+\index{getName@{getName}!Player@{Player}}
+\doxysubsubsection{getName()}
+{\footnotesize\ttfamily string Player\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 39 of file Player.\+h.
+
+\mbox{\label{class_player_ab597901af7441aba6e8fa2b52e48c104}} 
+\index{Player@{Player}!getNumCards@{getNumCards}}
+\index{getNumCards@{getNumCards}!Player@{Player}}
+\doxysubsubsection{getNumCards()}
+{\footnotesize\ttfamily int Player\+::get\+Num\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 12 of file Player.\+cpp.
+
+\mbox{\label{class_player_a36aa340e08e2852a3a8af91c048a2f34}} 
+\index{Player@{Player}!getOrder@{getOrder}}
+\index{getOrder@{getOrder}!Player@{Player}}
+\doxysubsubsection{getOrder()}
+{\footnotesize\ttfamily int Player\+::get\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 46 of file Player.\+h.
+
+\mbox{\label{class_player_ae549e0b66b6a8d12a92606391e283605}} 
+\index{Player@{Player}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!Player@{Player}}
+\doxysubsubsection{getStatus()}
+{\footnotesize\ttfamily int Player\+::get\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 48 of file Player.\+h.
+
+\mbox{\label{class_player_a23c0c113e7496d4f6dba4b527352fac0}} 
+\index{Player@{Player}!putMoneyToPot@{putMoneyToPot}}
+\index{putMoneyToPot@{putMoneyToPot}!Player@{Player}}
+\doxysubsubsection{putMoneyToPot()}
+{\footnotesize\ttfamily void Player\+::put\+Money\+To\+Pot (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 49 of file Player.\+h.
+
+\mbox{\label{class_player_a22e8cf764930dfdcf63f442d582767ae}} 
+\index{Player@{Player}!resetMyCards@{resetMyCards}}
+\index{resetMyCards@{resetMyCards}!Player@{Player}}
+\doxysubsubsection{resetMyCards()}
+{\footnotesize\ttfamily void Player\+::reset\+My\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 51 of file Player.\+h.
+
+\mbox{\label{class_player_a82dfff744b6b09daba9346811c301dd8}} 
+\index{Player@{Player}!setBalance@{setBalance}}
+\index{setBalance@{setBalance}!Player@{Player}}
+\doxysubsubsection{setBalance()}
+{\footnotesize\ttfamily void Player\+::set\+Balance (\begin{DoxyParamCaption}\item[{int}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 36 of file Player.\+h.
+
+\mbox{\label{class_player_a5bd8b73dce4bf96f67e3321d9b38e13f}} 
+\index{Player@{Player}!setMyCard@{setMyCard}}
+\index{setMyCard@{setMyCard}!Player@{Player}}
+\doxysubsubsection{setMyCard()}
+{\footnotesize\ttfamily void Player\+::set\+My\+Card (\begin{DoxyParamCaption}\item[{\textbf{ Card} $\ast$}]{mC }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 34 of file Player.\+h.
+
+\mbox{\label{class_player_a21f5d3d0f858ecff23b604e907f36247}} 
+\index{Player@{Player}!setName@{setName}}
+\index{setName@{setName}!Player@{Player}}
+\doxysubsubsection{setName()}
+{\footnotesize\ttfamily void Player\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 35 of file Player.\+h.
+
+\mbox{\label{class_player_af58fb465146a14ed4b6e471c7ec1585d}} 
+\index{Player@{Player}!setOrder@{setOrder}}
+\index{setOrder@{setOrder}!Player@{Player}}
+\doxysubsubsection{setOrder()}
+{\footnotesize\ttfamily void Player\+::set\+Order (\begin{DoxyParamCaption}\item[{int}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 37 of file Player.\+h.
+
+\mbox{\label{class_player_abbcf6d1283b052d1a052b5b1a793327a}} 
+\index{Player@{Player}!setPlayer@{setPlayer}}
+\index{setPlayer@{setPlayer}!Player@{Player}}
+\doxysubsubsection{setPlayer()}
+{\footnotesize\ttfamily void Player\+::set\+Player (\begin{DoxyParamCaption}\item[{string}]{n,  }\item[{int}]{b,  }\item[{int}]{o,  }\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 33 of file Player.\+h.
+
+\mbox{\label{class_player_afdc95b64157e03b38c9c051e63573e2f}} 
+\index{Player@{Player}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!Player@{Player}}
+\doxysubsubsection{setStatus()}
+{\footnotesize\ttfamily void Player\+::set\+Status (\begin{DoxyParamCaption}\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 38 of file Player.\+h.
+
+\mbox{\label{class_player_a5c021e60ee3bc04a7322bc5f89f6410f}} 
+\index{Player@{Player}!takeMoneyFromPot@{takeMoneyFromPot}}
+\index{takeMoneyFromPot@{takeMoneyFromPot}!Player@{Player}}
+\doxysubsubsection{takeMoneyFromPot()}
+{\footnotesize\ttfamily void Player\+::take\+Money\+From\+Pot (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 50 of file Player.\+h.
+
+\mbox{\label{class_player_ad88bf3f30e3474a1805c3a58abe510fb}} 
+\index{Player@{Player}!updateMyHands@{updateMyHands}}
+\index{updateMyHands@{updateMyHands}!Player@{Player}}
+\doxysubsubsection{updateMyHands()}
+{\footnotesize\ttfamily void Player\+::update\+My\+Hands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file Player.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{class_player_a25cc905e3c3ef8380958c4cc6686eece}} 
+\index{Player@{Player}!balance@{balance}}
+\index{balance@{balance}!Player@{Player}}
+\doxysubsubsection{balance}
+{\footnotesize\ttfamily int Player\+::balance\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 22 of file Player.\+h.
+
+\mbox{\label{class_player_ad87cf12f89600fb3285cad95990b6633}} 
+\index{Player@{Player}!hands@{hands}}
+\index{hands@{hands}!Player@{Player}}
+\doxysubsubsection{hands}
+{\footnotesize\ttfamily int Player\+::hands\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 27 of file Player.\+h.
+
+\mbox{\label{class_player_a309ebe73f57e5a175098e4542929e3f5}} 
+\index{Player@{Player}!myCards@{myCards}}
+\index{myCards@{myCards}!Player@{Player}}
+\doxysubsubsection{myCards}
+{\footnotesize\ttfamily \textbf{ Card}$\ast$ Player\+::my\+Cards\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 25 of file Player.\+h.
+
+\mbox{\label{class_player_a0c8cdffb1d093fc506bf54f091bff289}} 
+\index{Player@{Player}!myFiveCards@{myFiveCards}}
+\index{myFiveCards@{myFiveCards}!Player@{Player}}
+\doxysubsubsection{myFiveCards}
+{\footnotesize\ttfamily \textbf{ Card}$\ast$ Player\+::my\+Five\+Cards\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 26 of file Player.\+h.
+
+\mbox{\label{class_player_a854dc0e9c8ac69ed6c43aeff25fe3836}} 
+\index{Player@{Player}!myPoints@{myPoints}}
+\index{myPoints@{myPoints}!Player@{Player}}
+\doxysubsubsection{myPoints}
+{\footnotesize\ttfamily int Player\+::my\+Points\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 28 of file Player.\+h.
+
+\mbox{\label{class_player_acf0355128a99ee20ad9931b760fb2de1}} 
+\index{Player@{Player}!name@{name}}
+\index{name@{name}!Player@{Player}}
+\doxysubsubsection{name}
+{\footnotesize\ttfamily string Player\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 21 of file Player.\+h.
+
+\mbox{\label{class_player_a4c5726c0fa6d1e409a03a0ed2a5d765c}} 
+\index{Player@{Player}!order@{order}}
+\index{order@{order}!Player@{Player}}
+\doxysubsubsection{order}
+{\footnotesize\ttfamily int Player\+::order\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 23 of file Player.\+h.
+
+\mbox{\label{class_player_aa5017ea27513d0b8ebee31cc17bffd52}} 
+\index{Player@{Player}!status@{status}}
+\index{status@{status}!Player@{Player}}
+\doxysubsubsection{status}
+{\footnotesize\ttfamily int Player\+::status\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 24 of file Player.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Player.\+h}\item 
+/home/pete/\+Dropbox/\+Scan\+Snap/\+School/\+Byoungmo/2019 Spring/\+C\+S\+C17\+A/git-\/repos/\+Lee\+Byoungmo\+\_\+\+C\+S\+C\+\_\+17a\+\_\+44083/\+Proj/\+Proj2/texas\+Holdem\+\_\+\+Ver7/\textbf{ Player.\+cpp}\end{DoxyCompactItemize}

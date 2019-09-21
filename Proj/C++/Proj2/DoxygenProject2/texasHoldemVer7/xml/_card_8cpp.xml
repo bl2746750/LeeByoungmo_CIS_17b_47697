@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_card_8cpp" kind="file" language="C++">
+    <compoundname>Card.cpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="_card_8h" local="yes">Card.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp</label>
+        <link refid="_card_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="6">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>File:<sp/><sp/><sp/>Card.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Byoung<sp/>Mo<sp/>Lee</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Created<sp/>on<sp/>May<sp/>17,<sp/>2019<sp/>00:09<sp/>AM</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/>Texas<sp/>Holdem</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_card_8h" kindref="compound">Card.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_card_1aadcde165495efbb8877f1c3c080f8cf5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1aadcde165495efbb8877f1c3c080f8cf5" kindref="member">Card::displayCard</ref>(){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>a[52]={</highlight><highlight class="stringliteral">&quot;\U0001F0A1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A3&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A4&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A5&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0A6&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A7&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A8&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0A9&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0AA&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0AB&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0AD&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0AE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B3&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B4&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0B5&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B6&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B7&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B8&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0B9&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0BA&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0BB&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0BD&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0BE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C3&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0C4&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C5&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C6&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C7&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C8&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0C9&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0CA&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0CB&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0CD&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0CE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D2&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0D3&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D4&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D5&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D6&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D7&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0D8&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="stringliteral">&quot;\U0001F0D9&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0DA&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0DB&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0DD&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\U0001F0DE&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;4;i++){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j=0;j&lt;13;j++){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(face==j+1<sp/>&amp;&amp;<sp/>suit==i)<sp/>cout<sp/>&lt;&lt;<sp/>a[i*13+j];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(face==14<sp/>&amp;&amp;<sp/>suit==0)<sp/>cout<sp/>&lt;&lt;<sp/>a[0];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(face==14<sp/>&amp;&amp;<sp/>suit==1)<sp/>cout<sp/>&lt;&lt;<sp/>a[13];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(face==14<sp/>&amp;&amp;<sp/>suit==2)<sp/>cout<sp/>&lt;&lt;<sp/>a[26];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(face==14<sp/>&amp;&amp;<sp/>suit==3)<sp/>cout<sp/>&lt;&lt;<sp/>a[39];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_card_1a3b17be682cec5df254265069271479ef" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a3b17be682cec5df254265069271479ef" kindref="member">Card::selectionSortByFace</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>begin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minIndex,<sp/>maxValue;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end=begin+size;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start=begin;start&lt;end-1;start++){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minIndex=start;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxValue=c[start].<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index=start+1;index&lt;end;index++){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c[index].face&gt;maxValue){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxValue=c[index].<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minIndex=index;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap(c[minIndex].face,c[start].face);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap(c[minIndex].suit,c[start].suit);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="51" refid="class_card_1a55223f6ab993c656e76108a54ad0ef03" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a55223f6ab993c656e76108a54ad0ef03" kindref="member">Card::selectionSortBySuit</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>begin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minIndex,<sp/>maxValue;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end=begin+size;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start=begin;start&lt;end-1;start++){</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minIndex=start;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxValue=c[start].<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index=start+1;index&lt;end;index++){</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c[index].suit&gt;maxValue){</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxValue=c[index].<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minIndex=index;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap(c[minIndex].face,c[start].face);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap(c[minIndex].suit,c[start].suit);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp"/>
+  </compounddef>
+</doxygen>

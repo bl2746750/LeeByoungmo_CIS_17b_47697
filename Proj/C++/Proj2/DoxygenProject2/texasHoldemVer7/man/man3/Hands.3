@@ -1,0 +1,125 @@
+.TH "Hands" 3 "Fri Jun 7 2019" "texasHoldem" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Hands
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Hands\&.h>\fP
+.PP
+Inherits \fBCard\fP\&.
+.PP
+Inherited by \fBPlayer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHands\fP ()"
+.br
+.ti -1c
+.RI "\fBHands\fP (const \fBHands\fP &orig)"
+.br
+.ti -1c
+.RI "virtual \fB~Hands\fP ()"
+.br
+.ti -1c
+.RI "void \fBgetInformation\fP (\fBCard\fP *)"
+.br
+.ti -1c
+.RI "int \fBcheckStraight\fP (const int *const *, int)"
+.br
+.ti -1c
+.RI "int \fBisFlush\fP (\fBCard\fP *)"
+.br
+.ti -1c
+.RI "void \fBcheckFaceHands\fP (\fBCard\fP *, int)"
+.br
+.ti -1c
+.RI "void \fBsetHands\fP (\fBCard\fP *, int)"
+.br
+.ti -1c
+.RI "void \fBdisplayFiveCards\fP (\fBCard\fP *, int)"
+.br
+.ti -1c
+.RI "\fBCard\fP * \fBgetFiveCards\fP (\fBCard\fP *c, int n)"
+.br
+.ti -1c
+.RI "int \fBgetHands\fP (\fBCard\fP *c, int n)"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Definition at line 17 of file Hands\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Hands::Hands ()"
+
+.PP
+Definition at line 14 of file Hands\&.cpp\&.
+.SS "Hands::Hands (const \fBHands\fP & orig)"
+
+.PP
+Definition at line 19 of file Hands\&.cpp\&.
+.SS "virtual Hands::~Hands ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 21 of file Hands\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Hands::checkFaceHands (\fBCard\fP * cards, int num)"
+
+.PP
+Definition at line 88 of file Hands\&.cpp\&.
+.SS "int Hands::checkStraight (const int *const * f, int row)"
+
+.PP
+Definition at line 57 of file Hands\&.cpp\&.
+.SS "void Hands::displayFiveCards (\fBCard\fP * c, int n)"
+
+.PP
+Definition at line 497 of file Hands\&.cpp\&.
+.SS "\fBCard\fP* Hands::getFiveCards (\fBCard\fP * c, int n)\fC [inline]\fP"
+
+.PP
+Definition at line 28 of file Hands\&.h\&.
+.SS "int Hands::getHands (\fBCard\fP * c, int n)\fC [inline]\fP"
+
+.PP
+Definition at line 29 of file Hands\&.h\&.
+.SS "void Hands::getInformation (\fBCard\fP * cards)"
+
+.PP
+Definition at line 24 of file Hands\&.cpp\&.
+.SS "int Hands::isFlush (\fBCard\fP * cards)"
+
+.PP
+Definition at line 452 of file Hands\&.cpp\&.
+.SS "void Hands::setHands (\fBCard\fP * cards, int num)"
+
+.PP
+Definition at line 137 of file Hands\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int Hands::faceRow"
+
+.PP
+Definition at line 36 of file Hands\&.h\&.
+.SS "int** Hands::faceSum"
+
+.PP
+Definition at line 35 of file Hands\&.h\&.
+.SS "int Hands::suitRow"
+
+.PP
+Definition at line 38 of file Hands\&.h\&.
+.SS "int** Hands::suitSum"
+
+.PP
+Definition at line 37 of file Hands\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for texasHoldem from the source code\&.

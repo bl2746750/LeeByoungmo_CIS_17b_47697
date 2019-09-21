@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+/* 
+ * File:   TestADice.html
+ * Author: Student Byoung Mo Lee
+ * Created on September 20, 2019, 22:54 PM
+ * Purpose: Create Dice Class with C++ and 
+ *          Convert to JavaScript and PHP
+ */
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Play and Display a Card Deck</title>
+        <script type="text/javascript" src="Dice.js"></script>
+    </head>
+
+    <body>
+        <script language="JavaScript" type="text/javascript">
+            //Test the Cards by creating a deck then printing the result
+            var nNum=6;
+            var d1=new Array(nNum);
+            for(var i=0;i<nNum;i++){
+                d1[i]=new Dice(i);
+                d1[i].toString();
+            }
+        </script>
+    </body>
+</html>

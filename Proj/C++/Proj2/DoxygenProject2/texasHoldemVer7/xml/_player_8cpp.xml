@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_player_8cpp" kind="file" language="C++">
+    <compoundname>Player.cpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes refid="_player_8h" local="yes">Player.h</includes>
+    <includes refid="_hands_8h" local="yes">Hands.h</includes>
+    <incdepgraph>
+      <node id="76">
+        <label>Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>cmath</label>
+      </node>
+      <node id="78">
+        <label>string</label>
+      </node>
+      <node id="74">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.cpp</label>
+        <link refid="_player_8cpp"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Hands.h</label>
+        <link refid="_hands_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>iostream</label>
+      </node>
+      <node id="80">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>File:<sp/><sp/><sp/>Player.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Byoung<sp/>Mo<sp/>Lee</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Created<sp/>on<sp/>May<sp/>27,<sp/>2019<sp/>10:12<sp/>AM</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/>Player<sp/>class<sp/>for<sp/>Texas<sp/>Holdem</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_player_8h" kindref="compound">Player.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_hands_8h" kindref="compound">Hands.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_player_1ab597901af7441aba6e8fa2b52e48c104" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_player_1ab597901af7441aba6e8fa2b52e48c104" kindref="member">Player::getNumCards</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scan=0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>found=0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!found<sp/>&amp;&amp;<sp/>scan&lt;7){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>[scan].<ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>()==-1)<sp/>found=1;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>scan++;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scan;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_player_1ad88bf3f30e3474a1805c3a58abe510fb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1ad88bf3f30e3474a1805c3a58abe510fb" kindref="member">Player::updateMyHands</ref>(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_card" kindref="compound">Card</ref><sp/>[5];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_hands_1aab1e7de13dd6df2c3a44c34e0f07bcb7" kindref="member">setHands</ref>(<ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>,<ref refid="class_player_1ab597901af7441aba6e8fa2b52e48c104" kindref="member">getNumCards</ref>());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player_1ad87cf12f89600fb3285cad95990b6633" kindref="member">hands</ref>=<ref refid="class_hands_1a9c9e1b246fee8438746bb62edbe3cfb1" kindref="member">Hands::getHands</ref>(<ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>,<ref refid="class_player_1ab597901af7441aba6e8fa2b52e48c104" kindref="member">getNumCards</ref>());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>=<ref refid="class_hands_1ad81de28ce78750ac960e37e74cd18c32" kindref="member">Hands::getFiveCards</ref>(<ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>,<ref refid="class_player_1ab597901af7441aba6e8fa2b52e48c104" kindref="member">getNumCards</ref>());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player_1a854dc0e9c8ac69ed6c43aeff25fe3836" kindref="member">myPoints</ref>=0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player_1a854dc0e9c8ac69ed6c43aeff25fe3836" kindref="member">myPoints</ref>+=<ref refid="class_player_1ad87cf12f89600fb3285cad95990b6633" kindref="member">hands</ref>*10000000;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;5;i++){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1a854dc0e9c8ac69ed6c43aeff25fe3836" kindref="member">myPoints</ref>+=(<ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>[i].<ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>())*pow(15,4-i);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_player_1a533d9de5d42ee36c137c8ecf5fff523a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_player_1a533d9de5d42ee36c137c8ecf5fff523a" kindref="member">Player::getMyHands</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1ad87cf12f89600fb3285cad95990b6633" kindref="member">hands</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41" refid="class_player_1a676bc26aa78f6cc245e75d3bb58e9765" refkind="member"><highlight class="normal"><ref refid="class_card" kindref="compound">Card</ref>*<sp/><ref refid="class_player_1a676bc26aa78f6cc245e75d3bb58e9765" kindref="member">Player::getMyFiveCards</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_player_1a6a8e9c98a61f6f5ee8c594c824b751ec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_player_1a6a8e9c98a61f6f5ee8c594c824b751ec" kindref="member">Player::getMyPoints</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1a854dc0e9c8ac69ed6c43aeff25fe3836" kindref="member">myPoints</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48" refid="class_player_1aa271a7a688b7d90e86e4008995720f7d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1aa271a7a688b7d90e86e4008995720f7d" kindref="member">Player::addCards</ref>(<ref refid="class_card" kindref="compound">Card</ref><sp/>*c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n){<sp/></highlight><highlight class="comment">//mC=players.myCards,<sp/>c=decked<sp/>Cards,<sp/>n=number<sp/>of<sp/>addition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pos=0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>found=0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!found){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>[pos].<ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>()==-1){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>found=1;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos++;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>myCards[pos].getFace()<sp/>&lt;&lt;<sp/>endl;<sp/>//<sp/>for<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>pos<sp/>&lt;&lt;<sp/>endl;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>for<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;n;i++){</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1a309ebe73f57e5a175098e4542929e3f5" kindref="member">myCards</ref>[pos+i].<ref refid="class_card_1ac6d9ce946de59dc3b68eb428156ec953" kindref="member">setACard</ref>(c[i]);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//c-&gt;displayCard();<sp/><sp/>//test<sp/>for<sp/>addCard<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_player_1ac56c3737248c5d1b944d980031925f60" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1ac56c3737248c5d1b944d980031925f60" kindref="member">Player::displayMyFiveCards</ref>(){</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count=0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;5;i++){</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>[i].<ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>()&gt;=0<sp/>&amp;&amp;<sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>[i].<ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>()&lt;=14){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1a0c8cdffb1d093fc506bf54f091bff289" kindref="member">myFiveCards</ref>[i].<ref refid="class_card_1aadcde165495efbb8877f1c3c080f8cf5" kindref="member">displayCard</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.cpp"/>
+  </compounddef>
+</doxygen>

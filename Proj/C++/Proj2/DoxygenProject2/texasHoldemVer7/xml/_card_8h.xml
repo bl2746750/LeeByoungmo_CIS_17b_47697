@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_card_8h" kind="file" language="C++">
+    <compoundname>Card.h</compoundname>
+    <includes local="no">memory</includes>
+    <includedby refid="_card_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp</includedby>
+    <includedby refid="_dealer_8h" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h</includedby>
+    <includedby refid="_player_8h" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.h</includedby>
+    <includedby refid="_hands_8h" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.h</includedby>
+    <includedby refid="_templates_8h" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Templates.h</includedby>
+    <includedby refid="main_8cpp" local="yes">/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/main.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.h</label>
+        <link refid="_player_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.cpp</label>
+        <link refid="_card_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.cpp</label>
+        <link refid="_dealer_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Player.cpp</label>
+        <link refid="_player_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.cpp</label>
+        <link refid="_hands_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h</label>
+        <link refid="_card_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Hands.h</label>
+        <link refid="_hands_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Dealer.h</label>
+        <link refid="_dealer_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Templates.h</label>
+        <link refid="_templates_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_card" prot="public">Card</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>File:<sp/><sp/><sp/>Card.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Byoung<sp/>Mo<sp/>Lee</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Created<sp/>on<sp/>May<sp/>16,<sp/>2019<sp/>23:52<sp/>PM</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/>Texas<sp/>Holdem</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CARD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CARD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_card" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_card" kindref="compound">Card</ref>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>;<sp/></highlight><highlight class="comment">//2~J(11),Q(12),K(13),A(14)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>;<sp/><sp/></highlight><highlight class="comment">//0-Spades,<sp/>1-Hearts,<sp/>2-Diamonds,<sp/>3-Clubs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="class_card_1a783f5854cbe8c183ee3d4414c01472c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card_1a783f5854cbe8c183ee3d4414c01472c0" kindref="member">Card</ref>()<sp/>{<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>=-1;<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>=-1;}</highlight></codeline>
+<codeline lineno="20" refid="class_card_1a67bf98fcaba4cd1347fcde8e5bf454e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_card_1a67bf98fcaba4cd1347fcde8e5bf454e1" kindref="member">Card</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s)<sp/>{<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>=f;<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>=s;}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="class_card_1a65f892e8e88cbe651ff8035f140275c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a65f892e8e88cbe651ff8035f140275c4" kindref="member">setCard</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s)<sp/>{<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>=f;<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>=s;}</highlight></codeline>
+<codeline lineno="23" refid="class_card_1a459248e9eb80f6a54a4115e7783fde7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a459248e9eb80f6a54a4115e7783fde7b" kindref="member">setFace</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f)<sp/>{<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>=f;}</highlight></codeline>
+<codeline lineno="24" refid="class_card_1a046f8780960f82e6b8c9e6a01768a711" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a046f8780960f82e6b8c9e6a01768a711" kindref="member">setSuit</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s)<sp/>{<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>=s;}</highlight></codeline>
+<codeline lineno="25" refid="class_card_1ac6d9ce946de59dc3b68eb428156ec953" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1ac6d9ce946de59dc3b68eb428156ec953" kindref="member">setACard</ref>(<ref refid="class_card" kindref="compound">Card</ref><sp/>&amp;c)<sp/>{<ref refid="class_card_1a65f892e8e88cbe651ff8035f140275c4" kindref="member">setCard</ref>(c.<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>,c.<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>);}</highlight></codeline>
+<codeline lineno="26" refid="class_card_1a82270695ff584c3dd77fe4bf34566313" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_card_1a82270695ff584c3dd77fe4bf34566313" kindref="member">getFace</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>;}</highlight></codeline>
+<codeline lineno="27" refid="class_card_1a0628a5c886b29321dc009115913583b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_card_1a0628a5c886b29321dc009115913583b9" kindref="member">getSuit</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>;}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1aadcde165495efbb8877f1c3c080f8cf5" kindref="member">displayCard</ref>();<sp/><sp/></highlight><highlight class="comment">//defined<sp/>in<sp/>Card.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a3b17be682cec5df254265069271479ef" kindref="member">selectionSortByFace</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>begin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_card_1a55223f6ab993c656e76108a54ad0ef03" kindref="member">selectionSortBySuit</ref>(<ref refid="class_card" kindref="compound">Card</ref>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>begin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="31" refid="class_card_1a50d7785a9e17e8d92f26e8e373e811d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_card" kindref="compound">Card</ref><sp/><ref refid="class_card_1a50d7785a9e17e8d92f26e8e373e811d4" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_card" kindref="compound">Card</ref><sp/>&amp;right){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>!=<sp/>&amp;right){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>=right.<ref refid="class_card_1a5e31d609eb15ef325de8a294fdf94801" kindref="member">face</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>=right.<ref refid="class_card_1a68d1b935f3e4830af01fb9dba6c8220a" kindref="member">suit</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CARD_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/pete/Dropbox/ScanSnap/School/Byoungmo/2019 Spring/CSC17A/git-repos/LeeByoungmo_CSC_17a_44083/Proj/Proj2/texasHoldem_Ver7/Card.h"/>
+  </compounddef>
+</doxygen>
