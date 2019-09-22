@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+    Student Byoung Mo Lee
+    September 21st, 2019
+    Include a function library with arrays utilization
+-->
+<html>
+    <head>
+        <title>Goes to Javascript Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- uses html form to go to a Javascript page-->
+        <form action="_GET_Loan.html" method="get">
+            <h1> Inputs for a Loan Calculator </h1> 
+            Present Value = $<input type="text" name="Loan_Amount" size="5"
+                                value="10000" style="text-align:right;"><br/>
+            Interest Rate = <input type="text" name="Interest_Rate" size="4"
+                                value="6" style="text-align:right;">%<br/>
+            Periods       = <input type="text" name="Periods" size="8" 
+                                value="36" style="text-align:right;">months<br/>
+            <br/><input type="submit" value="Calculate">
+        </form>
+    </body>
+</html>

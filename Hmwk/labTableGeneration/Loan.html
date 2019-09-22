@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    Student Byoung Mo Lee
+    September 21st, 2019
+    Include a function library with arrays utilization
+-->
+<html>
+    <head>
+        <title>Utilize the Loan Javascript Functions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Inserting Libraries -->
+        <script type="text/javascript" src="./JavascriptLoanFunctions.js">
+        </script>
+    </head>
+    <body>
+         <script type="text/javascript">
+            //Declare variables
+            var L=10000;  //Loan Amount $'s
+            var i=0.06;//Interest Rate %
+            var n=36;//Number of compounding periods months
+
+            //Perform Calculation / Call the function
+            var mp=loan(L,i,n);//Monthly Payment Calculation
+            var lr=loanRemaining(L,i,n);//Loan Remaining Array Calculation
+            
+            //Display the results
+            document.write("<p>Loan Amount   = $"+L+"</p>");
+            document.write("<p>Interest Rate   =  "+i*100+"%</p>");
+            document.write("<p>Number of Years = "+n+"(Month)"+"</p>");
+            document.write("<p>Monthly Payment    = $"+mp.toFixed(2)+"</p>");
+            
+            display(lr);	
+        </script>
+    </body>
+</html>

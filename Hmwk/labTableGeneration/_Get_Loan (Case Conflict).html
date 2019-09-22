@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+    Student Byoung Mo Lee
+    September 21st, 2019
+    Include a function library with arrays utilization
+-->
+<html>
+    <head>
+        <title>Utilize the Loan Javascript Functions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Inserting Libraries -->
+        <script type="text/javascript" src="./JavascriptLoanFunctions.js">
+        </script>
+        <script type="text/javascript">
+            //Function which retrieves the information
+            //in a form
+            function getForm(url){
+                var info=url.split("?");
+                var nameValuePairs=info[1].split("&");
+                var $_GET = new Object;
+                for(var i=0;i<nameValuePairs.length;i++){
+                    var map=nameValuePairs[i].split("=");
+                    var name=map[0];
+                    var value=map[1];
+                    $_GET[name]=value;
+                }
+                return $_GET;
+            }
+        </script>
+    </head>
+    <body>
+         <script type="text/javascript">
+            //Call the Get function
+            var url=document.location.href;
+            $_GET=getForm(url);
+            //Declare variables
+            var L=$_GET['Loan_Amount'];   //Loan Amount $'s
+            var i=$_GET['Interest_Rate']/100; //Interest Rate %
+            var n=$_GET['Periods'];//Number of compounding periods month
+
+            //Perform Calculation / Call the function
+            var mp=loan(L,i,n);//Monthly Payment Calculation
+            var lr=loanRemaining(L,i,n);//Loan Remaining Array Calculation
+
+            //Display the results
+            document.write("<p>Loan Amount   = $"+L+"</p>");
+            document.write("<p>Interest Rate   =  "+i*100+"%</p>");
+            document.write("<p>Number of Years = "+n+"(Month)"+"</p>");
+            document.write("<p>Monthly Payment    = $"+mp.toFixed(2)+"</p>");
+            
+            display(lr);
+        </script>
+    </body>
+</html>
