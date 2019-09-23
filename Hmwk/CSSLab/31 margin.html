@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.one {
+                border: 1px solid black;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-right: 150px;
+                margin-left: 80px;
+                background-color: lightblue;
+            }
+            div.two{
+                margin:25px 50px 75px 100px;
+            }
+            div.three {
+                border: 1px solid black;
+                margin: 25px 50px 75px;
+                background-color: lightblue;
+            }
+            div.four{
+                border:1px solid black;
+                margin:25px 50px;
+                background-color: lightblue;
+            }
+            div.five{
+                border: 1px solid black;
+                margin: 25px;
+                background-color: lightblue;
+            }
+            div.six{
+                width:300px;
+                margin: auto;
+                border: 1px solid red;
+            }
+            div.seven{
+                border:1px solid red;
+                margin-left: 100px;
+            }
+            p.ex1{
+                margin-left: inherit;
+            }
+            h1.collapse{margin: 0 0 50px 0;}
+            h2.collapse{margin: 20px 0 0 0;}
+        </style>
+    </head>
+    <body>
+
+        <h2>Using individual margin properties</h2>
+
+        <div class="one">This div element has a top margin of 100px, a right 
+            margin of 150px, a bottom margin of 100px, and a left margin of 80px.
+        </div>
+        <div class="two">This div element has a top margin of 25px, a right
+            margin of 50px, a bottom margin of 75px, and a left margin of 100px
+        </div>
+        <div class="three">This div element has a top margin of 25px, a right
+            and left margin of 50px, and a bottom margin of 75px.</div>
+
+        <h2>The margin shorthand property - 2 values</h2>
+        <div class="four">This div element has a top and bottom margin of 25px, and a right and left margin of 50px.</div>
+
+        <h2>The margin shorthand property - 1 value</h2>
+        <div class="five">This div element has a top, bottom, left, and right margin of 25px.</div>
+
+        <h2>Use of margin:auto</h2>
+        <p>You can set the margin property to auto to horizontally center the
+            element within its container. The element will then take up the 
+            specified width, and the remaining space will be split equally 
+            between the left and right margins:</p>
+
+        <div class="six">This div will be horizontally centered because 
+            it has margin: auto;</div>
+
+        <h2>Use of the inherit value</h2>
+        <p>Let the left margin be inherited from the parent element:</p>
+
+        <div class="seven">
+            <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+        </div>
+
+        <p>In this example the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px. Then, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin collapse, the actual margin ends up being 50px.</p>
+
+        <h1 class="collapse">Heading 1</h1>
+        <h2 class="collapse">Heading 2</h2>
+
+    </body>
+</html>
