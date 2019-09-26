@@ -23,7 +23,7 @@ private:
     int numPlayers;
     Player* players;
     Card* cards;
-    Card* myCards;   //wrong should be in players
+    Card* myCards;
     void DeckOfCards();
     
     

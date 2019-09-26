@@ -26,8 +26,8 @@ public:
     int getFace() const {return face;}
     int getSuit() const {return suit;}
     void displayCard();  //defined in Card.cpp
-    void selectionSortByFace(Card* c, int begin, int size);//wrong since it's card
-    void selectionSortBySuit(Card* c, int begin, int size);//wrong since it's card
+    void selectionSortByFace(Card* c, int begin, int size);
+    void selectionSortBySuit(Card* c, int begin, int size);
     const Card operator=(const Card &right){
         if(this != &right){
             face=right.face;
