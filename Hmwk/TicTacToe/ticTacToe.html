@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+    Created on : Sep 18, 2019, 6:28:09 PM
+    Author     : Head First Javascript Example Project
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TicTacToe</title>
+        <link rel="stylesheet" type="text/css" href="BoardSheet.css">
+        <script src="Model.js">         </script>
+        <script src="View.js">          </script>
+        <script src="Controller.js">    </script>
+        <script src="HandlersInit.js">  </script>
+    </head>
+    
+    <body>
+        <div id="board">
+            <div id="messageArea"></div>
+            <table>
+                <tr>
+                    <td id="00"></td> <td id="01"></td> 
+                    <td id="02"></td> 
+                    
+                </tr>
+                <tr>
+                    <td id="10"></td> <td id="11"></td> 
+                    <td id="12"></td> 
+                </tr>
+                <tr>
+                    <td id="20"></td> <td id="21"></td> 
+                    <td id="22"></td> 
+                </tr>
+                
+            </table>
+            <form>
+                <input type="text" id="guessInput" placeholder="A0">
+                <input type="button" id="fireButton"  value="Fire!">
+            </form>
+        </div>
+    </body>
+</html>
