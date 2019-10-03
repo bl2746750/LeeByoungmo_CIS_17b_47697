@@ -1,0 +1,40 @@
+<!--
+	Student Byoung Mo Lee
+	Testing Local Storage
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Create the _Get Object</title>
+        <script type="text/javascript" src="getForm.js"></script>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            //Create an array with 2 objects
+            var survey1={"name":"Marketing Research1","description":"purchase",
+                "question1":"What is your favorite product?",
+                "question2":"Why did you purchase this product?",
+                "question3":"How satisfied are you with [product]?"};
+            var survey2={"name":"Marketing Research2","description":"purchase",
+                "question1":"Would you recommend [product] to a friend?",
+                "question2":"Would you recommend [company name] to a friend?"};
+            var survey=[];
+            survey[0]=survey1;
+            survey[1]=survey2;
+            //Display the array
+            for(var i=0;i<survey.length;i++){
+                document.write("The "+i+" Object</br>");
+                var obj=survey[i];
+                for(var property in obj){
+                    document.write(property+"="+obj[property]+"</br>");
+                }
+            }
+            //Stringify the array
+            var str=JSON.stringify(survey);
+            //Store into local Storage
+            localStorage.setItem("Survey",str);
+        </script>
+    </body>
+</html>

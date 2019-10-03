@@ -25,6 +25,8 @@ class Deal {
             $this->cards[$i]->displayCard();
         }
     }
+    
+    
     public function deckOfCards(){
         for($i=0;$i<MAXCRDS;$i++){
             $cards[]=new Cards($i);
