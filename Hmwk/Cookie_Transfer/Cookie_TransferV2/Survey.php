@@ -12,7 +12,6 @@ class Survey{
     private $qstn;
     
     public function Survey($name,$description,$quesNum){
-        echo("test");
         $nArgs=func_num_args();
         if($nArgs==0||$nArgs>3){
             $this->name="";
@@ -68,7 +67,7 @@ class Survey{
         echo("<p>"."Name: ".$this->name."</p>");
         echo("<br>"."Description: ".$this->desc."<br><br>");
         for($i=0;$i<count($this->qstn);$i++){
-            if(count($this->qstn[$i])){echo("Qeustion".($i+1).": ".$this->qstn[$i]."<br>");}
+            if($this->qstn[$i]){echo("Qeustion".($i+1).": ".$this->qstn[$i]."<br>");}
         }
         echo("<br>");
     }

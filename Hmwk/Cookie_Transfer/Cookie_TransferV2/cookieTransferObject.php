@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        //include ("Survey.php");
+        include ("Survey.php");
             
             echo "Gotta Read the cookie </br>";
             $text=$_COOKIE["object"];
@@ -23,6 +23,12 @@ and open the template in the editor.
             var_dump($myObj);
             //Survey::Survey($myObj);
             echo '</pre>';
+            
+            $obj=new Survey($myObj->name,$myObj->desc,$myObj->qstn);
+            $obj->display();
+            
+            
+                    
         ?>
     </body>
 </html>
