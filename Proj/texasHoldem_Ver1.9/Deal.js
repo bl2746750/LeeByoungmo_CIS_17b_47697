@@ -12,7 +12,7 @@ function Deal(number) {
 
     this.nPlayers = number;
 //    document.getElementById("011").innerHTML = number;
-    this.bigBlind = NROUND % this.nPlayers;
+    this.bigBlind = NROUND % (this.nPlayers-1);
     this.smallBlind = this.bigBlind + 1;
     this.activeNP = 0;
     this.setPlayers();
