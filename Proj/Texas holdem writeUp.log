@@ -1,22 +1,0 @@
-%%[ ProductName: Distiller ]%%
-GillSansMT not found, using Courier.
-%%[Page: 1]%%
-%%[Page: 2]%%
-%%[Page: 3]%%
-%%[Page: 4]%%
-GillSansMT-Bold not found, using Courier.
-%%[Page: 5]%%
-%%[ Error: invalidfont; OffendingCommand: xshow ]%%
-
-Stack:
-[124 54 106 29 69 140 54 106 68 140 54 54 124 126 69 95 124 137 124
-54 126 67 54 124 54 83 54 106 54 52 109 71 124 124 83 68 191 137 124
-115 109 66 54 124 83 137 68 83 124 119 67 124 137 83 67 191 106 124
-126 106 82 136 98 54 52 109 67 80 114 191 106 54 54 69 140 54 54 124
-126 70 145 68 209 0]
-
-(#&# &'!1% !&'&&  $0%"'$&'10"'!& $8"   &'!?@9)
-
-
-%%[ Flushing: rest of job (to end-of-file) will be ignored ]%%
-%%[ Warning: PostScript error. No PDF file produced. ] %%
