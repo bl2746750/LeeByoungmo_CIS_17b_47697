@@ -141,7 +141,7 @@ function flop(){
         url:"./inc/db/flop.php",
         success:function(){
             //update_cards();
-            $('#betting').show();
+            //$('#betting').show();
             betting_button();
              
         }
@@ -169,7 +169,7 @@ function betting_button(){
         url:"./inc/db/betting_button.php",
         method:"POST",
         success:function(data){
-            //$('#betting').hide();
+            $('#message_box').html(data);
             //console.log(data);
             if(data*1==0) {}
             else if(data*1==1) {
@@ -243,7 +243,7 @@ $(document).on('click','#raise_button',function(){
         url:'./inc/db/raise.php',
         data:{raise:$('#raise_button').val()},
         success: function(data){
-            $("#message_box").html(data);
+            //$("#message_box").html(data);
             $('#betting').hide();
         }    
     })
