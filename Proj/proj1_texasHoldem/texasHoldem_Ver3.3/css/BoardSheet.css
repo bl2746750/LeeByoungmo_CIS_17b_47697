@@ -1,0 +1,150 @@
+/* 
+    Created on : Sep 18, 2019, 6:28:09 PM
+    Author     : Head First Javascript Example Project
+*/
+
+body {
+    /*background-color: darkgreen;*/
+    font: 14px sans-serif;
+}
+
+div#message_box{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    /*margin: auto;*/
+    right:0px;
+    /*left:0px;*/
+    bottom:0px;
+    border:1px solid black;
+    
+}
+div#user_info{
+    position: absolute;
+/*    width: 100px;
+    height: 200px;*/
+    /*margin: auto;*/
+    right:0px;
+    top:0px;
+}
+div#board {
+    position: absolute;
+    width: 800px;
+    height: 420px;
+    /*margin: auto;*/
+    /*background: url("board.jpg") no-repeat ;*/
+    
+    left: 250px;
+    /*right: 0px;*/
+    top: 180px;
+    /*bottom: 0px;*/
+    
+    color: white;
+    
+}
+
+div#betting {
+    position: absolute;
+    width:900px;
+    height: 20px;
+    /*margin: auto;*/
+    top: 450px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+div#messageArea {
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+    color: rgb(241, 245, 7);
+}
+
+
+div#login{
+    
+}
+div#register{
+    
+}
+
+div#playButton {
+    
+}
+.container {
+  position: absolute;
+  top:0px;
+  left:300px;
+  width: 100%;
+  max-width: 960px;
+  /*margin: 0 auto;*/
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.card {
+    background : no-repeat center center;
+}
+
+.title{
+    margin-top: 40px;
+}
+.wrapper{
+    position: absolute;
+    
+    top:0px;
+    /*bottom: 50px;*/
+    right: 0px;
+    left:400px;
+    padding: 15px;
+    /*background-color: rgb(83, 175, 19);*/
+    width: 350px; padding: 20px;
+}
+
+
+table {
+    /*border-spacing: 0px; */
+/*    table-layout: fixed;
+    width:100%;*/
+
+}
+td {
+    text-align:center;
+    /*background-size:20px 20px;*/
+    border:1px solid black;
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+/*form {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+    
+}*/
+
+table.board_table{
+    table-layout: fixed;
+    width:100%;
+    
+    width:1200px;
+    height:420px;
+}
+td.board_table{
+   width:100%;
+   height:100%;
+   overflow: hidden;
+/*   width:75px;
+   height:140px;*/
+   margin:0px;
+   padding:0px;
+   border-collapse: collapse;
+}
